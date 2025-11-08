@@ -1,0 +1,70 @@
+.feedback-form {
+    max-width: 360px;
+    padding: 16px;
+    margin: auto;
+    text-align: left;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font: 400 16px / 150% "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.feedback-form input[type="email"]{
+    height: 40px;
+}
+
+.feedback-form textarea{
+    height: 80px;
+}
+
+.feedback-form input[type="email"],
+.feedback-form textarea {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    outline: none;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+
+.feedback-form input[type="email"]:hover,
+.feedback-form textarea:hover {
+    border-color: #000000;
+}
+
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus {
+    border-color: #808080;
+    box-shadow: none;
+}
+
+.feedback-form button[type="submit"] {
+    margin-top: 8px;
+    height: 40px;
+    width: 95px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4e75ff;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedback-form button[type="submit"]:hover {
+    background-color: #6c8cff;
+}
+
+.feedback-form button[type="submit"]:active {
+    background-color: #3b5fcc;
+}
